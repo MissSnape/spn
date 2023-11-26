@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <title>WinchesterD</title>
+</head>
+<body>
+    <section class="top center">
+    <header class="header">
+        <a class="home" href="#">Home</a>
+        <div class="menu">
+           
+            <nav class="nav">
+                <a class="menu-header" href="#main">About me</a>
+                <a class="menu-header" href="#skill">Skills</a>
+                <a class="menu-header" href="#com">Comments</a>
+                <a class="menu-header" href="#contacts">Contacts</a>
+            </nav>
+        </div>
+    </header>
+        <link rel=»alternate» hreflang=»ru» href=»portfolio.html/ru» />
+        <div class="lead center">
+        <h1 class="leader">Dean Winchester</h1>
+        <p class="par">One of the world's strongest hunters of evil spirits, as well as a member the Men of Letters </p>
+        <div class="img">
+          
+        <img src="2014.jpg" class="photo">
+        <img src="welcome.jpg" class="photomob">
+      </div>
+    </div>
+
+   
+</section>
+    <section class="main center" id="main">
+        <h2 class="tit">About me</h2>
+        <div class="title">
+       <span class="text">I have a good physical training that allows me to hunt effectively,</span>
+      <span class="text">  I have extensive knowledge of mythology and the world of the supernatural.</span> 
+       <span  class="text">Great experience in hunting Mastery of many types of cold and firearms</span> 
+    <span class="text">as well as hand-to-hand combat skills</span>
+</div>
+</section>
+    <section class="skill center" id="skill">
+        <h2 class="tit">Skills</h2>
+        <p class="text">I work with weapons like...</p>
+       <div class="product-content">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button  class="accordion-button skills" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    human weapons
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show skills">
+                <div class="accordion-body" class="skills">
+                  <strong>Firearms</strong> — one of the most useful and effective weapons against supernatural beings. It can be upgraded and used to kill a wide variety of creatures. It helps without upgrading, if you just need firepower. For example, against zombies.
+                <br><strong>Melee weapons</strong> — this melee weapon is used when there is no other weapon or to kill certain creatures, for example, to decapitate vampires. They can use machetes, axes and even swords.
+                </div> 
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed skills" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    organic weapons
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse skills">
+                <div class="accordion-body">
+                  <strong>Salt </strong>  — an effective remedy against ghosts, demons and hellhounds. These creatures cannot pass through the line of salt. Salt can load a gun and also deal damage to these creatures.
+                <br><strong>Silver.</strong> — helps very well against werewolves, werewolves and shapeshifters.<br>
+                <strong>Iron</strong> — used as a defense against ghosts, demons and other creatures<br>
+                <strong>Other</strong> —  various devices that also help against supernatural beings. These are syringes, dead man's blood, holy oil, ropes, paint, kerosene
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed skills" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    supernatural weapon
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse skills">
+                <div class="accordion-body">
+                  <strong>Supernatural weapon</strong> —  this is a weapon endowed with supernatural properties and allows you to also kill monsters. There are unique weapons, one of a kind, such as the Colt, the Ruby knife, or the First Blade.<br>
+                  <strong>EMF detector, infrared scanner, etc.</strong>  — electronic devices that can detect the presence of ghosts and other supernatural beings.
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    </div>
+    </section>
+    <section class="com center" id="com">
+        <h2 class="tit">Comments</h2>
+        <div class="container">
+          <ul class="comments" id="list">
+            <!-- Код рендериться из js -->
+          </ul>
+          <div class="add-form" id="form">
+            <input
+              type="text"
+              class="add-form-name"
+              placeholder="Enter your name", id="input-name"
+            />
+            <textarea
+              type="textarea"
+              class="add-form-text", id="input-text"
+              placeholder="Enter a comment" 
+              rows="4"
+            ></textarea>
+            <div class="add-form-row">
+              <button class="add-form-button" id="add-button">write</button>
+            </div>
+          </div>
+        </div>
+      
+          
+    </section>
+    <style>
+      .erorr{
+          border-width: 2px;
+          border-color: red;
+          background-color: rgb(225, 108, 108);
+    }
+    .gray{
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+    }
+    </style>
+    <script>
+    
+      const buttonElement=document.getElementById('add-button');
+      const listElement = document.getElementById("list");
+      const nameInputElement = document.getElementById("input-name");
+      const textInputElement = document.getElementById("input-text");
+     
+     
+      const comments = [
+        {
+          name: "Balthazar",
+          dates: "12.02.22 12:18",
+          text: "They drowned the Titanic that I saved. And I hate this movie.",
+          likeCounter: 3
+        },
+        {
+          name: "Lucifer",
+          dates: "13.02.22 19:22",
+          text: "Cast out my father, I advise",
+          likeCounter: 75
+        }
+      ];
+      const renderComments = () => {
+      const commentsHtml = comments
+        .map((comments) => {
+          return `<li class="comment">
+        <div class="comment-header">
+        <div>${comments.name}</div>
+            <div>${comments.dates}</div>
+          </div>
+          <div class="comment-body">
+            <div style="white-space:pre-line" class="comment-text">
+              ${comments.text} 
+            </div>
+          </div>
+          <div class="comment-footer">
+            <div class="likes">
+              <span class="likes-counter">${comments.likeCounter}</span>
+              <button class="like-button"></button>
+        </li>`;
+        })
+        .join("");
+        listElement.innerHTML = commentsHtml;
+
+      
+    };
+    renderComments();
+    
+      function likeButton() {
+            const likeButtonElements = document.querySelectorAll(".like-button");
+            for (const likeButtonElement of likeButtonElements) {
+              const counterElement =
+              likeButtonElement.parentElement.querySelector(".likes-counter");
+              likeButtonElement.addEventListener("click", (event) => {
+              likeButtonElement.classList.toggle("-active-like");
+              likeButtonElement.classList.contains("-active-like")
+          ? counterElement.innerHTML++
+          : counterElement.innerHTML--;
+        });
+      }
+    }   
+    likeButton();
+    
+    function time () {
+let dateComment = new Date();
+const months = ["01", "02", "03", "04", "05", "06","07", "08", "09", "10", "11", "12"];
+let fullDate = dateComment.getDate() + "." + months[dateComment.getMonth()] + "." + dateComment.getFullYear() + " " + dateComment.getHours() +":" + dateComment.getMinutes();
+return fullDate;
+}
+function sendAnAnswer(){
+  const commentElement = document.querySelectorAll(".comment");
+  for (const answerElement of commentElement){
+    answerElement.addEventListener("click",()=>{
+      let writer = answerElement.querySelector(".comment-header");
+      let reply = answerElement.querySelector(".comment-body");
+      textInputElement.value = `${writer.textContent} ${reply.textContent}`
+      
+    })
+  }
+}
+sendAnAnswer();
+
+buttonElement.addEventListener("click",() => {
+  nameInputElement.classList.remove("erorr"); 
+  textInputElement.classList.remove("erorr");
+  buttonElement.classList.remove("gray");
+  
+       if(nameInputElement.value==="" || textInputElement.value===""){
+        nameInputElement.classList.add("erorr");
+        textInputElement.classList.add("erorr");
+        buttonElement.classList.add("gray")
+        return;
+      };
+     
+
+      comments.push({
+        name: nameInputElement.value,
+        dates: time(),
+        text: textInputElement.value,
+        likeCounter: 0
+      });
+
+      renderComments();
+
+
+     //  const oldListHtml = listElement.innerHTML;
+     //   listElement.innerHTML = oldListHtml + 
+       // `<li class="comment">
+//        <div class="comment-header">
+  //      <div>${nameInputElement.value}</div>
+    //        <div>${time()}</div>
+//          </div>
+  //        <div class="comment-body">
+    //        <div class="comment-text">
+      //        ${textInputElement.value}
+        //    </div>
+          //</div>
+ //         <div class="comment-footer">
+  //          <div class="likes">
+ //             <span class="likes-counter">0</span>
+    //          <button class="like-button"></button>
+      //  </li>`;
+        
+        
+        likeButton();
+        nameInputElement.value = "";
+        textInputElement.value = "";
+        
+    });
+  
+      
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <footer class="contacts center" id="contacts">
+        <h2 class="tit">Contacts</h2>
+      
+        <p class="text">Do you want to contact me?
+            You are welcome!</p>
+            <form method="POST" action="telegram.php" class="bid">
+              <input type="text"name="user_name"  placeholder="Enter your name" class="request">
+              <input type="text" name="user_name" placeholder="Enter your number" class="request">
+              <input type="text" name="user_name" placeholder="Enter your email" class="request">
+              <input type="submit" name="submit" value="Send me" class="button">
+            </form>
+            
+            <p class="text">2005-2023</p>
+                </footer>
+</body>              

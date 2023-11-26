@@ -1,0 +1,64 @@
+@media(max-width: 767px){
+    .center{ padding-left: 16px; 
+     padding-right: 16px; 
+    }
+    .header{
+        padding-top: 32px;
+        gap: 22px;
+    }
+    .title{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .menu-header{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .text{
+    font-size: 18px;
+    line-height: 35px;
+    display: flex;
+    justify-content: flex-start;
+}
+.tit{
+    font-size: 25px;
+    line-height: 30px;
+
+}
+.lead{
+    display: grid;
+    font-family: "Poiret One", cursive;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 50px;
+  gap: 25px;
+
+}
+.leader{
+    font-size: 20px;
+    line-height: 26px;
+    grid-column: span 2;
+  }
+  .photo{
+    display: none;
+  }
+  .photomob{
+    display: flex;
+    height: 400px;
+  }
+  .img{
+      grid-column: span 4;
+      
+      
+  }
+  .par{
+      
+      font-size: 18px;
+      line-height: 25px;
+      grid-column: span 2;
+  }
+  .product{
+    width: 150px;
+    display: flex;
+     flex-direction: column;
+}
+}
